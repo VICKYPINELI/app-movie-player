@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-decoration: none;
+  color: silver;
+}
+
+/* Desde aqui se configuran los estilos que se ejecutan en toda la pagina */
