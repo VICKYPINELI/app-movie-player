@@ -1,0 +1,16 @@
+.moviesGrid {
+    background-color: #0d0120;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 560px) {
+    .moviesGrid {
+      grid-template-columns: 100%;
+    }
+  }
+
+
