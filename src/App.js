@@ -1,5 +1,6 @@
+import { Route, Router } from 'react-router-dom';
 import './App.css';
-import MoviesGrid from './MoviesGrid';
+import MoviesGrid from './components/MoviesGrid';
 
 
 function App() {
@@ -10,6 +11,13 @@ function App() {
       </header>
       <main>
         <MoviesGrid/>
+        <Router>
+            <Route></Route>
+            <Route></Route>
+            <Route></Route>
+            <Route></Route>
+            <Route></Route>
+        </Router>
       </main>
     </div>
   );
